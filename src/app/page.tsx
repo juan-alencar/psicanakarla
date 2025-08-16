@@ -13,12 +13,23 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="px-6 xl:px-10 max-w-7xl mx-auto">
-      <nav className="flex justify-between items-center py-4">
-        <Image src={Logo} alt="Ana Karla – Psicologia Clínica"></Image>
-        <Button>Entrar em contato</Button>
-      </nav>
-      <section className="py-10 text-center h-[80vh] flex items-center justify-center flex-col">
-        <h1 className="font-serif text-4xl md:text-6xl italic mb-4">
+      <header>
+        <nav
+          className="flex justify-between items-center py-4"
+          aria-label="Navegação principal"
+        >
+          <Image src={Logo} alt="Ana Karla – Psicologia Clínica"></Image>
+          <Button>Entrar em contato</Button>
+        </nav>
+      </header>
+      <section
+        className="py-10 text-center h-[80vh] flex items-center justify-center flex-col"
+        aria-labelledby="hero-title"
+      >
+        <h1
+          id="hero-title"
+          className="font-serif text-4xl md:text-6xl italic mb-4"
+        >
           O Eco por <br className="md:hidden" />
           trás do silêncio
         </h1>
@@ -30,7 +41,9 @@ export default function Home() {
           espaço para existir — e serem compreendidos.
         </p>
 
-        <Button className="mt-10">Entrar em contato</Button>
+        <Button className="mt-10" aria-label="Iniciar contato para agendamento">
+          Entrar em contato
+        </Button>
       </section>
       <section className="flex flex-col gap-4 md:flex-row md:gap-16 py-20 ">
         <div className="w-full md:flex md:flex-col md:justify-between md:self-stretch">
@@ -52,10 +65,17 @@ export default function Home() {
         </p>
         <Button className="md:hidden">Entrar em contato</Button>
       </section>
-      <section className="py-20 space-y-8">
+      <section className="py-20 space-y-8" aria-labelledby="pilares-title">
         <div className="flex w-full justify-between">
-          <h2 className="font-serif text-3xl mb-4">Pilares do Atendimento</h2>
-          <Button className="hidden md:inline-flex">Entrar em contato</Button>
+          <h2 id="pilares-title" className="font-serif text-3xl mb-4">
+            Pilares do Atendimento
+          </h2>
+          <Button
+            className="hidden md:inline-flex"
+            aria-label="Contato sobre pilares do atendimento"
+          >
+            Entrar em contato
+          </Button>
         </div>
         <div className="grid grid-cols-6 gap-4">
           <div className="space-y-3 p-6 rounded-2xl bg-card text-card-foreground col-span-6 md:col-span-2">
@@ -364,21 +384,46 @@ export default function Home() {
       </section>
 
       <footer className="py-10 flex flex-col gap-8 justify-center items-center text-muted text-xs">
-        <Image src={Logo} alt="Ana Karla – Psicologia Clínica"></Image>
+        <div className="text-center space-y-4">
+          <Image src={Logo} alt="Ana Karla – Psicologia Clínica"></Image>
 
-        <ul className="flex gap-4 ">
-          <li>
-            <Link href={""}>Linkedin</Link>
-          </li>
-          <li>
-            <Link href={""}>Instagram</Link>
-          </li>
-          <li>
-            <Link href={""}>Doctoralia</Link>
-          </li>
-        </ul>
+          <address className="not-italic">
+            <p>Ana Karla Viana - Psicóloga Clínica</p>
+            <p>CRP-13/13452</p>
+            <p>João Pessoa - Paraíba</p>
+          </address>
+        </div>
 
-        <p className="text-center ">
+        <nav aria-label="Redes sociais e plataformas">
+          <ul className="flex gap-4">
+            <li>
+              <Link
+                href="https://linkedin.com/in/ana-karla-viana"
+                aria-label="Perfil no LinkedIn"
+              >
+                LinkedIn
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="https://instagram.com/psicanakarla"
+                aria-label="Perfil no Instagram"
+              >
+                Instagram
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="https://doctoralia.com.br/ana-karla-viana"
+                aria-label="Perfil no Doctoralia"
+              >
+                Doctoralia
+              </Link>
+            </li>
+          </ul>
+        </nav>
+
+        <p className="text-center">
           © Ana Karla Viana (CRP-13/13452) / Todos os direitos reservados
         </p>
       </footer>

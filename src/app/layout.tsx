@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { DM_Sans, DM_Serif_Text } from "next/font/google";
+import StructuredData from "./components/structured-data";
 import "./globals.css";
 
 const dmSans = DM_Sans({
@@ -51,10 +52,14 @@ export const metadata: Metadata = {
       {
         url: "https://www.psicanakarla.com/cover.jpg",
         alt: "Ana Karla - Psicologia Clínica",
+        width: 1200,
+        height: 630,
+        type: "image/jpeg",
       },
     ],
     locale: "pt_BR",
     siteName: "Ana Karla Viana - Psicologia Clínica",
+    countryName: "Brasil",
   },
   twitter: {
     card: "summary_large_image",
@@ -76,6 +81,8 @@ export const metadata: Metadata = {
   verification: {
     google: "verification_token", // Substitua pelo seu token do Google Search Console
   },
+  category: "Health",
+  classification: "Psychology",
 };
 
 export default function RootLayout({
@@ -85,6 +92,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
+      <head>
+        <StructuredData />
+      </head>
       <body
         className={`${dmSans.variable} ${dmSerif.variable} font-sans antialiased`}
       >
