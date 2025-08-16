@@ -18,7 +18,7 @@ export default function Home() {
           className="flex justify-between items-center py-4"
           aria-label="Navegação principal"
         >
-          <Image src={Logo} alt="Ana Karla – Psicologia Clínica"></Image>
+          <Image src={Logo} alt="Ana Karla - Psicologia Clínica"></Image>
           <Button>Entrar em contato</Button>
         </nav>
       </header>
@@ -385,20 +385,14 @@ export default function Home() {
 
       <footer className="py-10 flex flex-col gap-8 justify-center items-center text-muted text-xs">
         <div className="text-center space-y-4">
-          <Image src={Logo} alt="Ana Karla – Psicologia Clínica"></Image>
-
-          <address className="not-italic">
-            <p>Ana Karla Viana - Psicóloga Clínica</p>
-            <p>CRP-13/13452</p>
-            <p>João Pessoa - Paraíba</p>
-          </address>
+          <Image src={Logo} alt="Ana Karla - Psicologia Clínica"></Image>
         </div>
 
         <nav aria-label="Redes sociais e plataformas">
           <ul className="flex gap-4">
             <li>
               <Link
-                href="https://linkedin.com/in/ana-karla-viana"
+                href="https://linkedin.com/in/ana-karla/"
                 aria-label="Perfil no LinkedIn"
               >
                 LinkedIn
@@ -410,14 +404,6 @@ export default function Home() {
                 aria-label="Perfil no Instagram"
               >
                 Instagram
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="https://doctoralia.com.br/ana-karla-viana"
-                aria-label="Perfil no Doctoralia"
-              >
-                Doctoralia
               </Link>
             </li>
           </ul>
