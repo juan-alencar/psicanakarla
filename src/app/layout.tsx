@@ -79,7 +79,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "verification_token", // Substitua pelo seu token do Google Search Console
+    google: "_uNprcNHR6-TBX3tSJUz_0cK7UZ7qpocWm3ig4kvJIs",
   },
   category: "Health",
   classification: "Psychology",

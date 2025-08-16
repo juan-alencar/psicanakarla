@@ -6,7 +6,7 @@ export default function StructuredData() {
     description:
       "Psicóloga clínica especializada em psicanálise. Atendimento online e presencial para adolescentes e adultos.",
     url: "https://www.psicanakarla.com/",
-    telephone: "+55-83-99999-9999", // Substitua pelo telefone real
+    telephone: "+55-83-99892-6253",
     address: {
       "@type": "PostalAddress",
       addressLocality: "João Pessoa",
@@ -15,7 +15,7 @@ export default function StructuredData() {
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: -7.115, // Coordenadas de João Pessoa
+      latitude: -7.115,
       longitude: -34.863,
     },
     openingHours: "Mo-Fr 08:00-18:00",
