@@ -122,7 +122,7 @@ export default function Home() {
 
       <section className="py-20 flex flex-col md:flex-row gap-16">
         <div className="space-y-8 w-full">
-          <h2 className="font-serif text-3xl mb-4">Pilares do Atendimento</h2>
+          <h2 className="font-serif text-3xl mb-4">Quem sou eu?</h2>
           <p className="md:text-lg">
             Sou Ana Karla Viana, psicóloga clínica (CRP-13/13452), com prática
             orientada pela{" "}
