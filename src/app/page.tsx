@@ -15,11 +15,11 @@ export default function Home() {
     <main className="px-6 xl:px-10 max-w-7xl mx-auto">
       <header>
         <nav
-          className="flex justify-between items-center py-4"
+          className="flex items-center h-20"
           aria-label="Navegação principal"
         >
           <Image src={Logo} alt="Ana Karla - Psicologia Clínica"></Image>
-          <Button>Entrar em contato</Button>
+          {/* <Button>Entrar em contato</Button> */}
         </nav>
       </header>
       <section
@@ -41,20 +41,22 @@ export default function Home() {
           espaço para existir — e serem compreendidos.
         </p>
 
-        <Button className="mt-10" aria-label="Iniciar contato para agendamento">
-          Entrar em contato
+        <Button className="mt-10" asChild>
+          <Link
+            href={"https://wa.me/message/Y7GU5LDQOYEUB1"}
+            target="_blank"
+            aria-label="Iniciar contato para agendamento"
+          >
+            Permita-se começar
+          </Link>
         </Button>
       </section>
       <section className="flex flex-col gap-4 md:flex-row md:gap-16 py-20 ">
-        <div className="w-full md:flex md:flex-col md:justify-between md:self-stretch">
-          <h2 className="font-serif text-3xl mb-4 w-full">
-            &quot;Escutar é, antes de tudo, sustentar o silêncio que o outro
-            precisa.&quot;
-          </h2>
-          <Button className="hidden md:inline-flex md:mt-auto w-fit">
-            Entrar em contato
-          </Button>
-        </div>
+        <h2 className="font-serif text-3xl mb-4 w-full">
+          &quot;Escutar é, antes de tudo, sustentar o silêncio que o outro
+          precisa.&quot;
+        </h2>
+
         <p className="sm:text-lg w-full">
           Nem sempre o que queremos dizer cabe inteiro na voz. Às vezes, a
           palavra chega tímida. Outras vezes, o silêncio fala alto. Este é um
@@ -63,19 +65,12 @@ export default function Home() {
           pouco a pouco, do encontro entre o que você traz e o que, aqui, se
           constrói.”
         </p>
-        <Button className="md:hidden">Entrar em contato</Button>
       </section>
       <section className="py-20 space-y-8" aria-labelledby="pilares-title">
         <div className="flex w-full justify-between">
           <h2 id="pilares-title" className="font-serif text-3xl mb-4">
             Pilares do Atendimento
           </h2>
-          <Button
-            className="hidden md:inline-flex"
-            aria-label="Contato sobre pilares do atendimento"
-          >
-            Entrar em contato
-          </Button>
         </div>
         <div className="grid grid-cols-6 gap-4">
           <div className="space-y-3 p-6 rounded-2xl bg-card text-card-foreground col-span-6 md:col-span-2">
@@ -117,7 +112,6 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <Button className="md:hidden">Entrar em contato</Button>
       </section>
 
       <section className="py-20 flex flex-col md:flex-row gap-16">
@@ -152,12 +146,16 @@ export default function Home() {
             <span className="italic font-bold"> singularidade</span> de cada
             percurso.
           </p>
-          <Link
-            href={""}
-            className="text-primary hover:underline hover:text-primary/90 text-sm font-semibold"
-          >
-            Entrar em contato
-          </Link>
+
+          <Button variant={"link"} className="p-0" asChild>
+            <Link
+              href={"https://wa.me/message/Y7GU5LDQOYEUB1"}
+              target="_blank"
+              aria-label="Conversar no Whatsapp"
+            >
+              Entrar em contato
+            </Link>
+          </Button>
         </div>
 
         <div className="w-full">
@@ -174,13 +172,24 @@ export default function Home() {
       </section>
 
       <section className="py-20 space-y-8">
-        <div className="md:max-w-md">
-          <h2 className="font-serif text-3xl mb-2">Formas de Atendimento</h2>
-          <p className="text-muted">
-            As sessões duram cerca de 50 minutos. No primeiro encontro, você
-            apresenta suas questões e expectativas, e juntos definimos
-            frequência e formato do atendimento.
-          </p>
+        <div className="flex flex-col md:flex-row w-ful md:justify-between items-end">
+          <div className="md:max-w-md">
+            <h2 className="font-serif text-3xl mb-2">Formas de Atendimento</h2>
+            <p className="text-muted">
+              As sessões duram cerca de 50 minutos. No primeiro encontro, você
+              apresenta suas questões e expectativas, e juntos definimos
+              frequência e formato do atendimento.
+            </p>
+          </div>
+          <Button className="hidden md:inline-flex" asChild>
+            <Link
+              href={"https://wa.me/message/Y7GU5LDQOYEUB1"}
+              target="_blank"
+              aria-label="Conversar no Whatsapp"
+            >
+              Marque um horário
+            </Link>
+          </Button>
         </div>
         <div className="grid grid-cols-6 gap-4">
           <div className="space-y-3 p-6 rounded-2xl bg-card text-card-foreground col-span-6 md:col-span-3">
@@ -191,12 +200,6 @@ export default function Home() {
               a possibilidade de estar no seu próprio espaço, preservando a
               qualidade da escuta e do vínculo terapêutico
             </p>
-            <Link
-              href={""}
-              className="text-primary hover:underline hover:text-primary/90 text-sm font-semibold"
-            >
-              Agendar atendimento
-            </Link>
           </div>
           <div className="space-y-3 p-6 rounded-2xl bg-card text-card-foreground col-span-6 md:col-span-3">
             <h3 className="font-serif text-xl">Atendimento Presencial</h3>
@@ -206,14 +209,17 @@ export default function Home() {
               opção para quem valoriza o contato físico e a atmosfera única do
               espaço terapêutico
             </p>
-            <Link
-              href={""}
-              className="text-primary hover:underline hover:text-primary/90 text-sm font-semibold"
-            >
-              Agendar atendimento
-            </Link>
           </div>
         </div>
+        <Button className="md:hidden" asChild>
+          <Link
+            href={"https://wa.me/message/Y7GU5LDQOYEUB1"}
+            target="_blank"
+            aria-label="Conversar no Whatsapp"
+          >
+            Marque um horário
+          </Link>
+        </Button>
       </section>
 
       <section className="py-20 flex flex-col gap-8 md:flex-row">
@@ -224,8 +230,14 @@ export default function Home() {
             terapêutico, respeitando a singularidade de cada pessoa.
           </p>
 
-          <Button className="hidden md:inline-flex md:mt-auto w-fit">
-            Entrar em contato
+          <Button className="hidden md:inline-flex md:mt-auto w-fit" asChild>
+            <Link
+              href={"https://wa.me/message/Y7GU5LDQOYEUB1"}
+              target="_blank"
+              aria-label="Conversar no Whatsapp"
+            >
+              Vamos conversar?
+            </Link>
           </Button>
         </div>
         <p className="w-full md:text-lg">
@@ -243,7 +255,16 @@ export default function Home() {
           permitindo que aquilo que se repete possa ser reconhecido e, assim,
           abrir espaço para novas formas de viver e se relacionar.
         </p>
-        <Button className="md:hidden">Entrar em contato</Button>
+
+        <Button className="md:hidden w-fit" asChild>
+          <Link
+            href={"https://wa.me/message/Y7GU5LDQOYEUB1"}
+            target="_blank"
+            aria-label="Conversar no Whatsapp"
+          >
+            Vamos conversar?
+          </Link>
+        </Button>
       </section>
 
       <section className="py-20 flex flex-col gap-16 md:flex-row-reverse items-center">
@@ -281,8 +302,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="rounded-2xl bg-card p-8 md:p-16 flex flex-col items-center justify-center gap-4">
-        <h2 className="font-serif text-3xl md:text-4xl text-center">
+      <section className="rounded-2xl bg-card p-8 md:p-16 flex flex-col items-center justify-center gap-4 text-center">
+        <h2 className="font-serif text-3xl md:text-4xl">
           Entre o silêncio e a palavra, há ecos que pedem escuta.
         </h2>
         <p>
@@ -291,8 +312,15 @@ export default function Home() {
         </p>
 
         <div className="flex flex-col md:flex-row gap-2 mt-6">
-          <Button>Entrar em contato</Button>
-          <Button variant={"link"}>Preencher formulário</Button>
+          <Button asChild>
+            <Link
+              href={"https://wa.me/message/Y7GU5LDQOYEUB1"}
+              target="_blank"
+              aria-label="Conversar no Whatsapp"
+            >
+              Dar o primeiro passo
+            </Link>
+          </Button>
         </div>
       </section>
 
@@ -301,8 +329,15 @@ export default function Home() {
           <h2 className="font-serif text-3xl mb-4 w-full">
             Perguntas Frequentes
           </h2>
-          <Button className="hidden md:inline-flex md:mt-auto w-fit">
-            Tenho outra dúvida
+
+          <Button className="hidden md:inline-flex md:mt-auto w-fit" asChild>
+            <Link
+              href={"https://wa.me/message/Y7GU5LDQOYEUB1"}
+              target="_blank"
+              aria-label="Conversar no Whatsapp"
+            >
+              Tenho outra dúvida
+            </Link>
           </Button>
         </div>
 
@@ -380,7 +415,15 @@ export default function Home() {
           </AccordionItem>
         </Accordion>
 
-        <Button className="md:hidden">Tenho outra dúvida</Button>
+        <Button className="md:hidden" asChild>
+          <Link
+            href={"https://wa.me/message/Y7GU5LDQOYEUB1"}
+            target="_blank"
+            aria-label="Conversar no Whatsapp"
+          >
+            Tenho outra dúvida
+          </Link>
+        </Button>
       </section>
 
       <footer className="py-10 flex flex-col gap-8 justify-center items-center text-muted text-xs">
@@ -392,6 +435,7 @@ export default function Home() {
           <ul className="flex gap-4">
             <li>
               <Link
+                target="_blank"
                 href="https://linkedin.com/in/ana-karla/"
                 aria-label="Perfil no LinkedIn"
               >
@@ -400,6 +444,7 @@ export default function Home() {
             </li>
             <li>
               <Link
+                target="_blank"
                 href="https://instagram.com/psicanakarla"
                 aria-label="Perfil no Instagram"
               >
