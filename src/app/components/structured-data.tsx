@@ -2,7 +2,7 @@ export default function StructuredData() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
-    name: "Ana Karla Viana - Psicologia Clínica",
+    name: "Ana Karla Viana - Psicóloga Clínica",
     description:
       "Psicóloga clínica especializada em psicanálise. Atendimento online e presencial para adolescentes e adultos.",
     url: "https://www.psicanakarla.com/",

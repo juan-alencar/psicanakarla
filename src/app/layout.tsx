@@ -15,8 +15,7 @@ const dmSerif = DM_Serif_Text({
 });
 
 export const metadata: Metadata = {
-  title:
-    "Ana Karla Viana - Psicologia Clínica | Psicanálise Online e Presencial",
+  title: "Ana Karla Viana - Psicóloga Clínica",
   description:
     "Psicóloga clínica Ana Karla Viana (CRP-13/13452) especializada em psicanálise. Atendimento online e presencial para adolescentes e adultos. Espaço terapêutico para escuta, acolhimento e transformação pessoal.",
   keywords: [
@@ -43,7 +42,7 @@ export const metadata: Metadata = {
     telephone: false,
   },
   openGraph: {
-    title: "Ana Karla Viana - Psicologia Clínica",
+    title: "Ana Karla Viana - Psicóloga Clínica",
     description:
       "Psicóloga clínica especializada em psicanálise. Atendimento online e presencial para adolescentes e adultos.",
     type: "website",
@@ -51,19 +50,19 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://www.psicanakarla.com/cover.jpg",
-        alt: "Ana Karla - Psicologia Clínica",
+        alt: "Ana Karla - Psicóloga Clínica",
         width: 1200,
         height: 630,
         type: "image/jpeg",
       },
     ],
     locale: "pt_BR",
-    siteName: "Ana Karla Viana - Psicologia Clínica",
+    siteName: "Ana Karla Viana - Psicóloga Clínica",
     countryName: "Brasil",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ana Karla Viana - Psicologia Clínica",
+    title: "Ana Karla Viana - Psicóloga Clínica",
     description:
       "Psicóloga clínica especializada em psicanálise. Atendimento online e presencial.",
   },
