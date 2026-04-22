@@ -1,10 +1,10 @@
 export default function StructuredData() {
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "MedicalBusiness",
+    "@type": ["MedicalBusiness", "LocalBusiness"],
     name: "Ana Karla Viana - Psicóloga Clínica",
     description:
-      "Psicóloga clínica especializada em psicanálise. Atendimento online e presencial para adolescentes e adultos.",
+      "Psicóloga clínica (CRP-13/13452) especializada em psicanálise em João Pessoa, Paraíba. Atendimento online para todo o Brasil e presencial em João Pessoa.",
     url: "https://www.psicanakarla.com/",
     telephone: "+55-83-99892-6253",
     address: {
@@ -12,27 +12,44 @@ export default function StructuredData() {
       addressLocality: "João Pessoa",
       addressRegion: "PB",
       addressCountry: "BR",
+      addressCountryName: "Brasil",
     },
     geo: {
       "@type": "GeoCoordinates",
       latitude: -7.115,
       longitude: -34.863,
     },
+    hasMap:
+      "https://maps.google.com/?q=João+Pessoa,+PB,+Brasil",
     openingHours: "Mo-Fr 08:00-18:00",
     priceRange: "$$",
     currenciesAccepted: "BRL",
     paymentAccepted: "Cash, Credit Card, Bank Transfer",
     medicalSpecialty: "Psychology",
+    knowsAbout: [
+      "Psicanálise",
+      "Psicologia Clínica",
+      "Atendimento Online",
+      "Atendimento Presencial",
+      "Psicoterapia para Adolescentes",
+      "Psicoterapia para Adultos",
+    ],
+    sameAs: [
+      "https://linkedin.com/in/ana-karla/",
+      "https://instagram.com/psicanakarla",
+    ],
     availableService: [
       {
         "@type": "MedicalTherapy",
         name: "Psicanálise Online",
-        description: "Atendimento psicológico online via videoconferência",
+        description:
+          "Atendimento psicológico online via videoconferência para todo o Brasil",
       },
       {
         "@type": "MedicalTherapy",
         name: "Psicanálise Presencial",
-        description: "Atendimento psicológico presencial em consultório",
+        description:
+          "Atendimento psicológico presencial em consultório em João Pessoa, PB",
       },
     ],
     hasOfferCatalog: {
@@ -85,18 +102,22 @@ export default function StructuredData() {
       name: "Ana Karla Viana",
       jobTitle: "Psicóloga Clínica",
       description:
-        "Psicóloga clínica CRP-13/13452 especializada em psicanálise",
+        "Psicóloga clínica CRP-13/13452 especializada em psicanálise em João Pessoa, PB",
       alumniOf: {
         "@type": "EducationalOrganization",
         name: "UNIESP",
       },
+      sameAs: [
+        "https://linkedin.com/in/ana-karla/",
+        "https://instagram.com/psicanakarla",
+      ],
     },
     employee: {
       "@type": "Person",
       name: "Ana Karla Viana",
       jobTitle: "Psicóloga Clínica",
       description:
-        "Especialista em psicanálise com atendimento online e presencial",
+        "Especialista em psicanálise com atendimento online e presencial em João Pessoa",
     },
     areaServed: [
       {
@@ -106,6 +127,10 @@ export default function StructuredData() {
       {
         "@type": "City",
         name: "Campina Grande",
+      },
+      {
+        "@type": "State",
+        name: "Paraíba",
       },
       {
         "@type": "Country",

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { DM_Sans, DM_Serif_Text } from "next/font/google";
 import StructuredData from "./components/structured-data";
+import { WhatsAppButton } from "@/components/whatsapp-button";
 import "./globals.css";
 
 const dmSans = DM_Sans({
@@ -15,18 +16,26 @@ const dmSerif = DM_Serif_Text({
 });
 
 export const metadata: Metadata = {
-  title: "Ana Karla Viana - Psicóloga Clínica",
+  title: "Ana Karla Viana - Psicóloga Clínica em João Pessoa - PB",
   description:
-    "Psicóloga clínica Ana Karla Viana (CRP-13/13452) especializada em psicanálise. Atendimento online e presencial para adolescentes e adultos. Espaço terapêutico para escuta, acolhimento e transformação pessoal.",
+    "Psicóloga clínica Ana Karla Viana (CRP-13/13452) especializada em psicanálise em João Pessoa, Paraíba. Atendimento online para todo o Brasil e presencial em João Pessoa. Escuta qualificada para adolescentes e adultos.",
   keywords: [
     "psicóloga",
+    "psicóloga João Pessoa",
+    "psicóloga Paraíba",
+    "psicóloga clínica João Pessoa",
+    "psicóloga online João Pessoa",
+    "psicanálise João Pessoa",
     "psicanálise",
     "atendimento psicológico online",
     "atendimento psicológico presencial",
-    "terapia",
+    "terapia João Pessoa",
     "psicologia clínica",
     "Ana Karla Viana",
     "CRP-13/13452",
+    "CRP-13",
+    "psicóloga adolescentes",
+    "psicóloga adultos",
     "atendimento adolescente",
     "atendimento adulto",
     "escutar",
@@ -36,21 +45,24 @@ export const metadata: Metadata = {
   authors: [{ name: "Ana Karla Viana" }],
   creator: "Ana Karla Viana",
   publisher: "Ana Karla Viana",
+  alternates: {
+    canonical: "https://www.psicanakarla.com/",
+  },
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
   openGraph: {
-    title: "Ana Karla Viana - Psicóloga Clínica",
+    title: "Ana Karla Viana - Psicóloga Clínica em João Pessoa - PB",
     description:
-      "Psicóloga clínica especializada em psicanálise. Atendimento online e presencial para adolescentes e adultos.",
+      "Psicóloga clínica especializada em psicanálise em João Pessoa, Paraíba. Atendimento online para todo o Brasil e presencial em João Pessoa.",
     type: "website",
     url: "https://www.psicanakarla.com/",
     images: [
       {
         url: "https://www.psicanakarla.com/cover.jpg",
-        alt: "Ana Karla - Psicóloga Clínica",
+        alt: "Ana Karla - Psicóloga Clínica em João Pessoa",
         width: 1200,
         height: 630,
         type: "image/jpeg",
@@ -62,9 +74,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ana Karla Viana - Psicóloga Clínica",
+    title: "Ana Karla Viana - Psicóloga Clínica em João Pessoa - PB",
     description:
-      "Psicóloga clínica especializada em psicanálise. Atendimento online e presencial.",
+      "Psicóloga clínica especializada em psicanálise. Atendimento online para todo o Brasil e presencial em João Pessoa, PB.",
   },
   robots: {
     index: true,
@@ -98,6 +110,7 @@ export default function RootLayout({
         className={`${dmSans.variable} ${dmSerif.variable} font-sans antialiased`}
       >
         {children}
+        <WhatsAppButton />
       </body>
     </html>
   );

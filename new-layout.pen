@@ -1,0 +1,2452 @@
+{
+  "version": "2.9",
+  "children": [
+    {
+      "type": "frame",
+      "id": "DZ2rC",
+      "x": 0,
+      "y": 0,
+      "name": "Landing Page - Ana Karla Viana",
+      "clip": true,
+      "width": 1440,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "D6VGx",
+          "name": "Hero Section",
+          "clip": true,
+          "width": "fill_container",
+          "height": 820,
+          "fill": "$surface-warm",
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "haKs6",
+              "x": 0,
+              "y": 0,
+              "name": "Hero Background Image",
+              "opacity": 0.18,
+              "width": 1440,
+              "height": 820,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1774666671376.png",
+                "mode": "fill"
+              }
+            },
+            {
+              "type": "rectangle",
+              "id": "nwowY",
+              "x": 0,
+              "y": 0,
+              "name": "Hero Gradient Overlay",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 0,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#F4ECE4FF",
+                    "position": 0
+                  },
+                  {
+                    "color": "#F4ECE400",
+                    "position": 0.6
+                  }
+                ]
+              },
+              "width": 1440,
+              "height": 820
+            },
+            {
+              "type": "frame",
+              "id": "i3VcJ",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 0,
+              "name": "Hero Content",
+              "width": 1440,
+              "height": 820,
+              "layout": "vertical",
+              "gap": 40,
+              "padding": [
+                180,
+                120,
+                80,
+                120
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Kv2a7",
+                  "name": "heroEyebrow",
+                  "fill": "$text-secondary",
+                  "content": "PSICÓLOGA CLÍNICA · CRP-13/13452",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "cLGf6",
+                  "name": "heroTitle",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": 720,
+                  "content": "Um espaço de escuta\npara compreender o que\nem você pede atenção.",
+                  "lineHeight": 1.15,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 56
+                },
+                {
+                  "type": "text",
+                  "id": "2Yl4c",
+                  "name": "heroSubtext",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "Nem sempre é simples nomear o que se sente. Às vezes, o sofrimento aparece como ansiedade, angústia, cansaço, conflitos nos relacionamentos ou uma sensação persistente de estar distante de si. A psicoterapia pode ser um caminho para escutar isso com mais cuidado.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Inter",
+                  "fontSize": 17
+                },
+                {
+                  "type": "frame",
+                  "id": "qlVwY",
+                  "name": "CTA Button",
+                  "fill": "$primary",
+                  "cornerRadius": 4,
+                  "gap": 10,
+                  "padding": [
+                    18,
+                    40
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ILmbx",
+                      "name": "heroCtaText",
+                      "fill": "$white",
+                      "content": "Agendar primeiro contato",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gvCwk",
+          "name": "Transition Section",
+          "width": "fill_container",
+          "fill": "$bg",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            100,
+            200
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "OyII1",
+              "name": "Decorative Line",
+              "fill": "$primary-soft",
+              "width": 48,
+              "height": 1
+            },
+            {
+              "type": "text",
+              "id": "oiWzW",
+              "name": "transTitle",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "Falar de si nem sempre é fácil.\nEncontrar um espaço seguro para isso faz diferença.",
+              "lineHeight": 1.4,
+              "textAlign": "center",
+              "fontFamily": "Playfair Display",
+              "fontSize": 32
+            },
+            {
+              "type": "text",
+              "id": "qvHbc",
+              "name": "transText",
+              "fill": "$text-secondary",
+              "textGrowth": "fixed-width",
+              "width": 640,
+              "content": "Este é um espaço construído com escuta, sigilo e respeito à sua singularidade. Um lugar em que a fala não precisa vir pronta, onde também há lugar para o silêncio, para as dúvidas e para aquilo que ainda não encontrou forma. O processo terapêutico acontece no seu tempo, com presença, cuidado e atenção ao que sua experiência tem de único.",
+              "lineHeight": 1.8,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 16
+            },
+            {
+              "type": "rectangle",
+              "id": "gNyMK",
+              "name": "Decorative Line Bottom",
+              "fill": "$primary-soft",
+              "width": 48,
+              "height": 1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "F9F3Y",
+          "name": "Pilares Section",
+          "width": "fill_container",
+          "fill": "$surface-warm",
+          "layout": "vertical",
+          "gap": 60,
+          "padding": [
+            100,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "fTpum",
+              "name": "Pilares Header",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "4f0bm",
+                  "name": "pilaresEye",
+                  "fill": "$primary",
+                  "content": "PILARES DO ATENDIMENTO",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "L7EUe",
+                  "name": "pilaresTitle",
+                  "fill": "$text-primary",
+                  "content": "O que sustenta este trabalho",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 36
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "TY5i1",
+              "name": "Pilares Grid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "id": "oJLi2",
+                  "type": "ref",
+                  "ref": "Migxl",
+                  "width": "fill_container",
+                  "name": "p1",
+                  "height": "fit_content",
+                  "descendants": {
+                    "7quGx": {
+                      "content": "01"
+                    },
+                    "ktOwz": {
+                      "content": "Sigilo profissional"
+                    },
+                    "R8gx3": {
+                      "width": "fill_container",
+                      "content": "Tudo o que é compartilhado em sessão é conduzido com confidencialidade, conforme o Código de Ética Profissional do Psicólogo."
+                    }
+                  }
+                },
+                {
+                  "id": "k1Opw",
+                  "type": "ref",
+                  "ref": "Migxl",
+                  "width": "fill_container",
+                  "name": "p2",
+                  "height": "fit_content",
+                  "x": 244.8,
+                  "descendants": {
+                    "7quGx": {
+                      "content": "02"
+                    },
+                    "ktOwz": {
+                      "content": "Escuta qualificada"
+                    },
+                    "R8gx3": {
+                      "width": "fill_container",
+                      "content": "Uma escuta atenta ao que é dito, ao que se repete, ao que se interrompe e ao que aparece nas entrelinhas da experiência."
+                    }
+                  }
+                },
+                {
+                  "id": "pWcnp",
+                  "type": "ref",
+                  "ref": "Migxl",
+                  "width": "fill_container",
+                  "name": "p3",
+                  "height": "fit_content",
+                  "x": 489.6,
+                  "descendants": {
+                    "7quGx": {
+                      "content": "03"
+                    },
+                    "ktOwz": {
+                      "content": "Respeito à singularidade"
+                    },
+                    "R8gx3": {
+                      "width": "fill_container",
+                      "content": "Cada pessoa tem sua história, seu ritmo e sua maneira própria de sofrer, desejar e se relacionar."
+                    }
+                  }
+                },
+                {
+                  "id": "354t8",
+                  "type": "ref",
+                  "ref": "Migxl",
+                  "width": "fill_container",
+                  "name": "p4",
+                  "height": "fit_content",
+                  "x": 734.4000000000001,
+                  "descendants": {
+                    "7quGx": {
+                      "content": "04"
+                    },
+                    "ktOwz": {
+                      "content": "Compromisso ético"
+                    },
+                    "R8gx3": {
+                      "width": "fill_container",
+                      "content": "A condução clínica é orientada por responsabilidade, cuidado e respeito à autonomia de quem busca atendimento."
+                    }
+                  }
+                },
+                {
+                  "id": "CRlTn",
+                  "type": "ref",
+                  "ref": "Migxl",
+                  "width": "fill_container",
+                  "name": "p5",
+                  "x": 979.2,
+                  "descendants": {
+                    "7quGx": {
+                      "content": "05"
+                    },
+                    "ktOwz": {
+                      "content": "Formação contínua"
+                    },
+                    "R8gx3": {
+                      "width": "fill_container",
+                      "content": "A prática clínica é sustentada por estudo, supervisão e constante aprofundamento teórico."
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "wyWnT",
+          "name": "Quem Sou Eu Section",
+          "width": "fill_container",
+          "fill": "$bg",
+          "gap": 80,
+          "padding": [
+            100,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "UU763",
+              "name": "Profile Image",
+              "clip": true,
+              "width": 480,
+              "height": 600,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1774666761843.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 4
+            },
+            {
+              "type": "frame",
+              "id": "ugZPi",
+              "name": "Quem Content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 28,
+              "padding": [
+                40,
+                0
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vBerj",
+                  "name": "quemEye",
+                  "fill": "$primary",
+                  "content": "QUEM VAI TE ACOMPANHAR",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "VJj4Y",
+                  "name": "quemTitle",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Quem vai te acompanhar\nnesse processo",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 38
+                },
+                {
+                  "type": "text",
+                  "id": "X2uzU",
+                  "name": "quemText1",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Sou Ana Karla Viana, psicóloga clínica, CRP-13/13452, com atuação orientada pela psicanálise.",
+                  "lineHeight": 1.8,
+                  "fontFamily": "Inter",
+                  "fontSize": 16
+                },
+                {
+                  "type": "text",
+                  "id": "6IwTZ",
+                  "name": "quemText2",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Meu trabalho é oferecer um espaço em que você possa falar de si com liberdade, sem julgamentos e sem respostas prontas. Um espaço para elaborar questões, reconhecer repetições, produzir novos sentidos e se aproximar, de forma mais verdadeira, da sua própria experiência.",
+                  "lineHeight": 1.8,
+                  "fontFamily": "Inter",
+                  "fontSize": 16
+                },
+                {
+                  "type": "text",
+                  "id": "2Kbd0",
+                  "name": "quemText3",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Atendo adolescentes e adultos, em um processo que respeita o tempo de cada sujeito e a singularidade de cada trajetória.",
+                  "lineHeight": 1.8,
+                  "fontFamily": "Inter",
+                  "fontSize": 16
+                },
+                {
+                  "type": "frame",
+                  "id": "9rmMF",
+                  "name": "WhatsApp CTA",
+                  "fill": "$primary",
+                  "cornerRadius": 4,
+                  "gap": 10,
+                  "padding": [
+                    16,
+                    36
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "23Jtb",
+                      "name": "quemCtaText",
+                      "fill": "$white",
+                      "content": "Falar comigo no WhatsApp",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.3
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lwb8l",
+          "name": "Formas de Atendimento",
+          "width": "fill_container",
+          "fill": "$surface-warm",
+          "layout": "vertical",
+          "gap": 60,
+          "padding": [
+            100,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "DDe1a",
+              "name": "Formas Header",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "otLgo",
+                  "name": "formasEye",
+                  "fill": "$primary",
+                  "content": "FORMAS DE ATENDIMENTO",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "FI7XU",
+                  "name": "formasTitle",
+                  "fill": "$text-primary",
+                  "content": "Como acontece o atendimento",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 36
+                },
+                {
+                  "type": "text",
+                  "id": "VRlZM",
+                  "name": "formasIntro",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 640,
+                  "content": "As sessões têm duração média de 50 minutos. No primeiro contato, conversamos sobre sua demanda, esclarecemos dúvidas e alinhamos os próximos passos do atendimento.",
+                  "lineHeight": 1.8,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 16
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "d1oaX",
+              "name": "Formas Cards",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "XeZZB",
+                  "name": "Online Card",
+                  "width": "fill_container",
+                  "fill": "$surface",
+                  "cornerRadius": 4,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border"
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    40,
+                    36
+                  ],
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "5WudD",
+                      "name": "onlineIcon",
+                      "width": 28,
+                      "height": 28,
+                      "iconFontName": "monitor",
+                      "iconFontFamily": "lucide",
+                      "fill": "$primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "PCQoB",
+                      "name": "onlineTitle",
+                      "fill": "$text-primary",
+                      "content": "Atendimento online",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XjuxV",
+                      "name": "onlineDesc",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Uma forma prática, segura e acolhedora de fazer psicoterapia, com a possibilidade de estar no seu próprio ambiente. Ideal para quem busca flexibilidade sem abrir mão da qualidade da escuta clínica.",
+                      "lineHeight": 1.75,
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "caMaG",
+                  "name": "Presencial Card",
+                  "width": "fill_container",
+                  "fill": "$surface",
+                  "cornerRadius": 4,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border"
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    40,
+                    36
+                  ],
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "2pFEi",
+                      "name": "presIcon",
+                      "width": 28,
+                      "height": 28,
+                      "iconFontName": "map-pin",
+                      "iconFontFamily": "lucide",
+                      "fill": "$primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nlsmj",
+                      "name": "presTitle",
+                      "fill": "$text-primary",
+                      "content": "Atendimento presencial",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XlehN",
+                      "name": "presDesc",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Sessões realizadas em consultório, em um espaço preparado para acolher o encontro terapêutico com privacidade, presença e cuidado.",
+                      "lineHeight": 1.75,
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Ks5e1",
+              "name": "Formas CTA",
+              "cornerRadius": 4,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$primary"
+              },
+              "padding": [
+                16,
+                36
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "MoRoI",
+                  "name": "formasCtaText",
+                  "fill": "$primary",
+                  "content": "Marcar um horário",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "dRlWO",
+          "name": "Minha Abordagem Section",
+          "width": "fill_container",
+          "fill": "$bg",
+          "gap": 80,
+          "padding": [
+            100,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "isKMB",
+              "name": "Abordagem Content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 28,
+              "padding": [
+                20,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "6wVc1",
+                  "name": "abordEye",
+                  "fill": "$primary",
+                  "content": "MINHA ABORDAGEM",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "L9zXd",
+                  "name": "abordTitle",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Psicanálise como\ndireção clínica",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 38
+                },
+                {
+                  "type": "text",
+                  "id": "jiEcR",
+                  "name": "abordText",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "A psicanálise orienta meu trabalho clínico porque considera que nem tudo o que nos move é plenamente consciente. Muitas vezes, o sofrimento se apresenta por caminhos indiretos: repetições, angústias, conflitos, sintomas e impasses que insistem.\n\nNo processo analítico, a escuta não busca encaixar você em explicações prontas. Ela sustenta um espaço de fala e elaboração para que aquilo que hoje pesa, confunde ou limita possa ser escutado de outra maneira. A partir disso, torna-se possível reconhecer sentidos, deslocar repetições e construir novas formas de relação consigo e com o outro.",
+                  "lineHeight": 1.8,
+                  "fontFamily": "Inter",
+                  "fontSize": 16
+                },
+                {
+                  "type": "frame",
+                  "id": "NxSwq",
+                  "name": "Abordagem CTA",
+                  "fill": "$primary",
+                  "cornerRadius": 4,
+                  "padding": [
+                    16,
+                    36
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "EbkOF",
+                      "name": "abordCtaText",
+                      "fill": "$white",
+                      "content": "Vamos conversar",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.3
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "momLX",
+              "name": "Abordagem Image",
+              "clip": true,
+              "width": 440,
+              "height": 520,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1774666831045.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 4
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "DJGEJ",
+          "name": "O Que É Psicanálise Section",
+          "width": "fill_container",
+          "fill": "$inverse-bg",
+          "layout": "vertical",
+          "gap": 36,
+          "padding": [
+            100,
+            200
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "fvZw7",
+              "name": "Deco Line",
+              "fill": "$accent",
+              "width": 48,
+              "height": 1
+            },
+            {
+              "type": "text",
+              "id": "bT7PX",
+              "name": "psiTitle",
+              "fill": "$inverse-text",
+              "content": "O que é psicanálise",
+              "textAlign": "center",
+              "fontFamily": "Playfair Display",
+              "fontSize": 34
+            },
+            {
+              "type": "text",
+              "id": "8dwqL",
+              "name": "psiText1",
+              "opacity": 0.8,
+              "fill": "$inverse-text",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "A psicanálise é uma abordagem clínica voltada à escuta do sujeito em sua singularidade. Ela parte do entendimento de que pensamentos, emoções e modos de agir nem sempre são totalmente conscientes, e que parte do sofrimento humano se manifesta justamente naquilo que se repete, escapa ou não consegue ser dito com clareza.",
+              "lineHeight": 1.85,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 16
+            },
+            {
+              "type": "text",
+              "id": "yDNSW",
+              "name": "psiText2",
+              "opacity": 0.8,
+              "fill": "$inverse-text",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "Na prática, a psicanálise oferece um espaço em que a fala pode acontecer sem pressa e sem julgamento. Ao longo do processo, o que antes aparecia apenas como sintoma, angústia ou confusão pode começar a ganhar contorno, sentido e elaboração.",
+              "lineHeight": 1.85,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 16
+            },
+            {
+              "type": "text",
+              "id": "LVyaf",
+              "name": "psiQuote",
+              "fill": "$primary-soft",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "Mais do que buscar respostas rápidas, a psicanálise\nabre espaço para uma escuta mais profunda de si.",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "Playfair Display",
+              "fontSize": 20,
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "2LTgt",
+          "name": "CTA Final Section",
+          "width": "fill_container",
+          "fill": "$surface-warm",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            100,
+            200
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "IxuuU",
+              "name": "Deco Line",
+              "fill": "$primary-soft",
+              "width": 48,
+              "height": 1
+            },
+            {
+              "type": "text",
+              "id": "N2Kpz",
+              "name": "ctaTitle",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": 640,
+              "content": "Se algo em você pede escuta,\nesse pode ser o momento de começar.",
+              "lineHeight": 1.4,
+              "textAlign": "center",
+              "fontFamily": "Playfair Display",
+              "fontSize": 34
+            },
+            {
+              "type": "text",
+              "id": "yter8",
+              "name": "ctaText",
+              "fill": "$text-secondary",
+              "textGrowth": "fixed-width",
+              "width": 560,
+              "content": "O primeiro contato pode ser uma forma simples de entender como funciona o atendimento e avaliar se este espaço faz sentido para você.",
+              "lineHeight": 1.8,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 16
+            },
+            {
+              "type": "frame",
+              "id": "Et9vj",
+              "name": "CTA Final Button",
+              "fill": "$primary",
+              "cornerRadius": 4,
+              "gap": 10,
+              "padding": [
+                20,
+                48
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "7X5f8",
+                  "name": "ctaBtnText",
+                  "fill": "$white",
+                  "content": "Agendar primeiro atendimento",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "qj7mY",
+          "name": "FAQ Section",
+          "width": "fill_container",
+          "fill": "$bg",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            100,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "NGWwa",
+              "name": "FAQ Header",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "acQEV",
+                  "name": "faqEye",
+                  "fill": "$primary",
+                  "content": "PERGUNTAS FREQUENTES",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "xibiD",
+                  "name": "faqTitle",
+                  "fill": "$text-primary",
+                  "content": "Dúvidas comuns sobre o atendimento",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 34
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "IhORV",
+              "name": "FAQ List",
+              "width": 700,
+              "layout": "vertical",
+              "children": [
+                {
+                  "id": "mRgC3",
+                  "type": "ref",
+                  "ref": "Qx0kx",
+                  "width": "fill_container",
+                  "name": "f1",
+                  "descendants": {
+                    "YwWuM": {
+                      "content": "Como funciona a primeira sessão?"
+                    },
+                    "QJKpp": {
+                      "content": "É um primeiro encontro para que você possa apresentar sua questão, falar sobre o que motivou a busca por atendimento e conhecer a forma como conduzo o trabalho clínico."
+                    }
+                  }
+                },
+                {
+                  "id": "KQkYd",
+                  "type": "ref",
+                  "ref": "Qx0kx",
+                  "width": "fill_container",
+                  "name": "f2",
+                  "y": 131,
+                  "descendants": {
+                    "YwWuM": {
+                      "content": "O atendimento online funciona bem?"
+                    },
+                    "QJKpp": {
+                      "content": "Sim. O atendimento online é uma modalidade reconhecida e pode oferecer um trabalho clínico consistente, com escuta, vínculo e continuidade."
+                    }
+                  }
+                },
+                {
+                  "id": "sFK7p",
+                  "type": "ref",
+                  "ref": "Qx0kx",
+                  "width": "fill_container",
+                  "name": "f3",
+                  "y": 262,
+                  "descendants": {
+                    "YwWuM": {
+                      "content": "Qual é a frequência das sessões?"
+                    },
+                    "QJKpp": {
+                      "content": "A frequência é combinada de acordo com a necessidade de cada caso, mas geralmente os encontros acontecem semanalmente."
+                    }
+                  }
+                },
+                {
+                  "id": "LEa0j",
+                  "type": "ref",
+                  "ref": "Qx0kx",
+                  "width": "fill_container",
+                  "name": "f4",
+                  "y": 393,
+                  "descendants": {
+                    "YwWuM": {
+                      "content": "Posso remarcar ou cancelar uma sessão?"
+                    },
+                    "QJKpp": {
+                      "content": "Sim. Remarcações e cancelamentos podem ser combinados previamente, de acordo com os critérios alinhados no início do atendimento."
+                    }
+                  }
+                },
+                {
+                  "id": "p6Esi",
+                  "type": "ref",
+                  "ref": "Qx0kx",
+                  "width": "fill_container",
+                  "name": "f5",
+                  "y": 524,
+                  "descendants": {
+                    "YwWuM": {
+                      "content": "Como recebo informações sobre valores?"
+                    },
+                    "QJKpp": {
+                      "content": "Os valores não são divulgados publicamente. Essas informações são passadas com clareza no contato inicial, em conformidade com os princípios éticos da profissão."
+                    }
+                  }
+                },
+                {
+                  "id": "IVwZw",
+                  "type": "ref",
+                  "ref": "Qx0kx",
+                  "width": "fill_container",
+                  "name": "f6",
+                  "y": 655,
+                  "descendants": {
+                    "YwWuM": {
+                      "content": "Como faço para iniciar?"
+                    },
+                    "QJKpp": {
+                      "content": "Basta entrar em contato pelo WhatsApp. A partir disso, conversamos sobre sua demanda, esclarecemos dúvidas e alinhamos os próximos passos."
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ngaHJ",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$inverse-bg",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            48,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "GSTtN",
+              "name": "footerName",
+              "fill": "$inverse-text",
+              "content": "Ana Karla Viana",
+              "fontFamily": "Playfair Display",
+              "fontSize": 20
+            },
+            {
+              "type": "text",
+              "id": "86X9A",
+              "name": "footerRole",
+              "opacity": 0.6,
+              "fill": "$inverse-text",
+              "content": "Psicóloga Clínica · CRP-13/13452",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "letterSpacing": 1
+            },
+            {
+              "type": "text",
+              "id": "Iuv4l",
+              "name": "footerDesc",
+              "opacity": 0.5,
+              "fill": "$inverse-text",
+              "content": "Atendimento online e presencial para adolescentes e adultos.",
+              "fontFamily": "Inter",
+              "fontSize": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Migxl",
+      "x": 1600,
+      "y": 0,
+      "name": "Component/Pilar Card",
+      "reusable": true,
+      "width": 220,
+      "fill": "$surface",
+      "cornerRadius": 4,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "$border"
+      },
+      "layout": "vertical",
+      "gap": 16,
+      "padding": [
+        32,
+        28
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "7quGx",
+          "name": "pilarNum",
+          "fill": "$primary-soft",
+          "content": "01",
+          "fontFamily": "Playfair Display",
+          "fontSize": 28
+        },
+        {
+          "type": "text",
+          "id": "ktOwz",
+          "name": "pilarTitle",
+          "fill": "$text-primary",
+          "content": "Sigilo profissional",
+          "fontFamily": "Inter",
+          "fontSize": 15,
+          "fontWeight": "600"
+        },
+        {
+          "type": "text",
+          "id": "R8gx3",
+          "name": "pilarDesc",
+          "fill": "$text-secondary",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Tudo o que é compartilhado em sessão é conduzido com confidencialidade.",
+          "lineHeight": 1.7,
+          "fontFamily": "Inter",
+          "fontSize": 14
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Qx0kx",
+      "x": 1600,
+      "y": 300,
+      "name": "Component/FAQ Item",
+      "reusable": true,
+      "width": 700,
+      "stroke": {
+        "align": "inside",
+        "thickness": {
+          "bottom": 1
+        },
+        "fill": "$border"
+      },
+      "layout": "vertical",
+      "gap": 12,
+      "padding": [
+        24,
+        0
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "YwWuM",
+          "name": "faqQ",
+          "fill": "$text-primary",
+          "content": "Como funciona a primeira sessão?",
+          "fontFamily": "Inter",
+          "fontSize": 16,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "QJKpp",
+          "name": "faqA",
+          "fill": "$text-secondary",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "É um primeiro encontro para que você possa apresentar sua questão.",
+          "lineHeight": 1.75,
+          "fontFamily": "Inter",
+          "fontSize": 15
+        }
+      ]
+    }
+  ],
+  "themes": {
+    "Mode": [
+      "Light",
+      "Dark"
+    ],
+    "Base": [
+      "Neutral",
+      "Gray",
+      "Stone",
+      "Zinc",
+      "Slate"
+    ],
+    "Accent": [
+      "Default",
+      "Red",
+      "Rose",
+      "Orange",
+      "Green",
+      "Blue",
+      "Yellow",
+      "Violet"
+    ]
+  },
+  "variables": {
+    "--sidebar": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#fafafa"
+        },
+        {
+          "value": "#18181b",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#09090b"
+        },
+        {
+          "value": "#fafafa",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-primary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#18181b"
+        },
+        {
+          "value": "#1447e6",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-primary-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#fafafa"
+        },
+        {
+          "value": "#fafafa",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-border": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#e4e4e7"
+        },
+        {
+          "value": "#ffffff1a",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-accent": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#f4f4f4"
+        },
+        {
+          "value": "#2a2a30",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-accent-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#18181b"
+        },
+        {
+          "value": "#fafafa",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-ring": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#71717a"
+        },
+        {
+          "value": "#71717a",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--background": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#fafafa"
+        },
+        {
+          "value": "#0a0a0a",
+          "theme": {
+            "Mode": "Dark"
+          }
+        },
+        {
+          "value": "#030712",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Gray"
+          }
+        },
+        {
+          "value": "#020617",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Slate"
+          }
+        },
+        {
+          "value": "#0c0a09",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Stone"
+          }
+        },
+        {
+          "value": "#09090b",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Zinc"
+          }
+        }
+      ]
+    },
+    "--foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#0a0a0a"
+        },
+        {
+          "value": "#030712",
+          "theme": {
+            "Base": "Gray"
+          }
+        },
+        {
+          "value": "#020617",
+          "theme": {
+            "Base": "Slate"
+          }
+        },
+        {
+          "value": "#0c0a09",
+          "theme": {
+            "Base": "Stone"
+          }
+        },
+        {
+          "value": "#09090b",
+          "theme": {
+            "Base": "Zinc"
+          }
+        },
+        {
+          "value": "#fafafa",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--card": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#fafafa"
+        },
+        {
+          "value": "#171717",
+          "theme": {
+            "Mode": "Dark"
+          }
+        },
+        {
+          "value": "#111827",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Gray"
+          }
+        },
+        {
+          "value": "#0f172a",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Slate"
+          }
+        },
+        {
+          "value": "#1c1917",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Stone"
+          }
+        },
+        {
+          "value": "#18181b",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Zinc"
+          }
+        }
+      ]
+    },
+    "--card-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#0a0a0a"
+        },
+        {
+          "value": "#030712",
+          "theme": {
+            "Base": "Gray"
+          }
+        },
+        {
+          "value": "#020617",
+          "theme": {
+            "Base": "Slate"
+          }
+        },
+        {
+          "value": "#0c0a09",
+          "theme": {
+            "Base": "Stone"
+          }
+        },
+        {
+          "value": "#09090b",
+          "theme": {
+            "Base": "Zinc"
+          }
+        },
+        {
+          "value": "#fafafa",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--popover": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#fafafa"
+        },
+        {
+          "value": "#171717",
+          "theme": {
+            "Mode": "Dark"
+          }
+        },
+        {
+          "value": "#111827",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Gray"
+          }
+        },
+        {
+          "value": "#0f172a",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Slate"
+          }
+        },
+        {
+          "value": "#1c1917",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Stone"
+          }
+        },
+        {
+          "value": "#18181b",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Zinc"
+          }
+        }
+      ]
+    },
+    "--popover-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#0a0a0a"
+        },
+        {
+          "value": "#030712",
+          "theme": {
+            "Base": "Gray"
+          }
+        },
+        {
+          "value": "#020617",
+          "theme": {
+            "Base": "Slate"
+          }
+        },
+        {
+          "value": "#0c0a09",
+          "theme": {
+            "Base": "Stone"
+          }
+        },
+        {
+          "value": "#09090b",
+          "theme": {
+            "Base": "Zinc"
+          }
+        },
+        {
+          "value": "#fafafa",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--primary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#171717"
+        },
+        {
+          "value": "#111827",
+          "theme": {
+            "Base": "Gray"
+          }
+        },
+        {
+          "value": "#0f172a",
+          "theme": {
+            "Base": "Slate"
+          }
+        },
+        {
+          "value": "#1c1917",
+          "theme": {
+            "Base": "Stone"
+          }
+        },
+        {
+          "value": "#18181b",
+          "theme": {
+            "Base": "Zinc"
+          }
+        },
+        {
+          "value": "#e5e5e5",
+          "theme": {
+            "Mode": "Dark"
+          }
+        },
+        {
+          "value": "#e5e7eb",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Gray"
+          }
+        },
+        {
+          "value": "#e2e8f0",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Slate"
+          }
+        },
+        {
+          "value": "#e5e5e5",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Stone"
+          }
+        },
+        {
+          "value": "#e4e4e7",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Zinc"
+          }
+        },
+        {
+          "value": "#dc2626",
+          "theme": {
+            "Accent": "Red"
+          }
+        },
+        {
+          "value": "#e11d48",
+          "theme": {
+            "Accent": "Rose"
+          }
+        },
+        {
+          "value": "#ea580c",
+          "theme": {
+            "Accent": "Orange"
+          }
+        },
+        {
+          "value": "#65a30d",
+          "theme": {
+            "Accent": "Green"
+          }
+        },
+        {
+          "value": "#1d4ed8",
+          "theme": {
+            "Accent": "Blue"
+          }
+        },
+        {
+          "value": "#facc15",
+          "theme": {
+            "Accent": "Yellow"
+          }
+        },
+        {
+          "value": "#7c3aed",
+          "theme": {
+            "Accent": "Violet"
+          }
+        },
+        {
+          "value": "#ef4444",
+          "theme": {
+            "Mode": "Dark",
+            "Accent": "Red"
+          }
+        },
+        {
+          "value": "#f43f5e",
+          "theme": {
+            "Mode": "Dark",
+            "Accent": "Rose"
+          }
+        },
+        {
+          "value": "#f97316",
+          "theme": {
+            "Mode": "Dark",
+            "Accent": "Orange"
+          }
+        },
+        {
+          "value": "#65a30d",
+          "theme": {
+            "Mode": "Dark",
+            "Accent": "Green"
+          }
+        },
+        {
+          "value": "#1d4ed8",
+          "theme": {
+            "Mode": "Dark",
+            "Accent": "Blue"
+          }
+        },
+        {
+          "value": "#eab308",
+          "theme": {
+            "Mode": "Dark",
+            "Accent": "Yellow"
+          }
+        },
+        {
+          "value": "#8b5cf6",
+          "theme": {
+            "Mode": "Dark",
+            "Accent": "Violet"
+          }
+        }
+      ]
+    },
+    "--primary-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#fafafa"
+        },
+        {
+          "value": "#171717",
+          "theme": {
+            "Mode": "Dark"
+          }
+        },
+        {
+          "value": "#111827",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Gray"
+          }
+        },
+        {
+          "value": "#0f172a",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Slate"
+          }
+        },
+        {
+          "value": "#1c1917",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Stone"
+          }
+        },
+        {
+          "value": "#18181b",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Zinc"
+          }
+        },
+        {
+          "value": "#fef2f2",
+          "theme": {
+            "Accent": "Red"
+          }
+        },
+        {
+          "value": "#fff1f2",
+          "theme": {
+            "Accent": "Rose"
+          }
+        },
+        {
+          "value": "#fff7ed",
+          "theme": {
+            "Accent": "Orange"
+          }
+        },
+        {
+          "value": "#f7fee7",
+          "theme": {
+            "Accent": "Green"
+          }
+        },
+        {
+          "value": "#eff6ff",
+          "theme": {
+            "Accent": "Blue"
+          }
+        },
+        {
+          "value": "#713f12",
+          "theme": {
+            "Accent": "Yellow"
+          }
+        },
+        {
+          "value": "#f5f3ff",
+          "theme": {
+            "Accent": "Violet"
+          }
+        }
+      ]
+    },
+    "--secondary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#f5f5f5"
+        },
+        {
+          "value": "#262626",
+          "theme": {
+            "Mode": "Dark"
+          }
+        },
+        {
+          "value": "#1f2937",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Gray"
+          }
+        },
+        {
+          "value": "#1e293b",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Slate"
+          }
+        },
+        {
+          "value": "#292524",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Stone"
+          }
+        },
+        {
+          "value": "#27272a",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Zinc"
+          }
+        }
+      ]
+    },
+    "--secondary-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#171717"
+        },
+        {
+          "value": "#111827",
+          "theme": {
+            "Base": "Gray"
+          }
+        },
+        {
+          "value": "#0f172a",
+          "theme": {
+            "Base": "Slate"
+          }
+        },
+        {
+          "value": "#1c1917",
+          "theme": {
+            "Base": "Stone"
+          }
+        },
+        {
+          "value": "#18181b",
+          "theme": {
+            "Base": "Zinc"
+          }
+        },
+        {
+          "value": "#fafafa",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--muted": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#f5f5f5"
+        },
+        {
+          "value": "#262626",
+          "theme": {
+            "Mode": "Dark"
+          }
+        },
+        {
+          "value": "#1f2937",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Gray"
+          }
+        },
+        {
+          "value": "#1e293b",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Slate"
+          }
+        },
+        {
+          "value": "#292524",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Stone"
+          }
+        },
+        {
+          "value": "#27272a",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Zinc"
+          }
+        }
+      ]
+    },
+    "--muted-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#737373"
+        },
+        {
+          "value": "#6b7280",
+          "theme": {
+            "Base": "Gray"
+          }
+        },
+        {
+          "value": "#64748b",
+          "theme": {
+            "Base": "Slate"
+          }
+        },
+        {
+          "value": "#78716c",
+          "theme": {
+            "Base": "Stone"
+          }
+        },
+        {
+          "value": "#71717a",
+          "theme": {
+            "Base": "Zinc"
+          }
+        },
+        {
+          "value": "#a3a3a3",
+          "theme": {
+            "Mode": "Dark"
+          }
+        },
+        {
+          "value": "#9ca3af",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Gray"
+          }
+        },
+        {
+          "value": "#94a3b8",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Slate"
+          }
+        },
+        {
+          "value": "#a8a29e",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Stone"
+          }
+        },
+        {
+          "value": "#a1a1aa",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Zinc"
+          }
+        }
+      ]
+    },
+    "--accent": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#f5f5f5"
+        },
+        {
+          "value": "#262626",
+          "theme": {
+            "Mode": "Dark"
+          }
+        },
+        {
+          "value": "#1f2937",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Gray"
+          }
+        },
+        {
+          "value": "#1e293b",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Slate"
+          }
+        },
+        {
+          "value": "#292524",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Stone"
+          }
+        },
+        {
+          "value": "#27272a",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Zinc"
+          }
+        }
+      ]
+    },
+    "--accent-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#171717"
+        },
+        {
+          "value": "#111827",
+          "theme": {
+            "Base": "Gray"
+          }
+        },
+        {
+          "value": "#0f172a",
+          "theme": {
+            "Base": "Slate"
+          }
+        },
+        {
+          "value": "#1c1917",
+          "theme": {
+            "Base": "Stone"
+          }
+        },
+        {
+          "value": "#18181b",
+          "theme": {
+            "Base": "Zinc"
+          }
+        },
+        {
+          "value": "#fafafa",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--destructive": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#e7000b"
+        },
+        {
+          "value": "#ff666999",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--border": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#e5e5e5"
+        },
+        {
+          "value": "#e5e7eb",
+          "theme": {
+            "Base": "Gray"
+          }
+        },
+        {
+          "value": "#e2e8f0",
+          "theme": {
+            "Base": "Slate"
+          }
+        },
+        {
+          "value": "#e5e5e5",
+          "theme": {
+            "Base": "Stone"
+          }
+        },
+        {
+          "value": "#e4e4e7",
+          "theme": {
+            "Base": "Zinc"
+          }
+        },
+        {
+          "value": "#ffffff1a",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--input": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#e5e5e5"
+        },
+        {
+          "value": "#e5e7eb",
+          "theme": {
+            "Base": "Gray"
+          }
+        },
+        {
+          "value": "#e2e8f0",
+          "theme": {
+            "Base": "Slate"
+          }
+        },
+        {
+          "value": "#e5e5e5",
+          "theme": {
+            "Base": "Stone"
+          }
+        },
+        {
+          "value": "#e4e4e7",
+          "theme": {
+            "Base": "Zinc"
+          }
+        },
+        {
+          "value": "#ffffff1a",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--ring": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#a3a3a3"
+        },
+        {
+          "value": "#9ca3af",
+          "theme": {
+            "Base": "Gray"
+          }
+        },
+        {
+          "value": "#94a3b8",
+          "theme": {
+            "Base": "Slate"
+          }
+        },
+        {
+          "value": "#a8a29e",
+          "theme": {
+            "Base": "Stone"
+          }
+        },
+        {
+          "value": "#a1a1aa",
+          "theme": {
+            "Base": "Zinc"
+          }
+        },
+        {
+          "value": "#737373",
+          "theme": {
+            "Mode": "Dark"
+          }
+        },
+        {
+          "value": "#6b7280",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Gray"
+          }
+        },
+        {
+          "value": "#64748b",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Slate"
+          }
+        },
+        {
+          "value": "#78716c",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Stone"
+          }
+        },
+        {
+          "value": "#71717a",
+          "theme": {
+            "Mode": "Dark",
+            "Base": "Zinc"
+          }
+        },
+        {
+          "value": "#7f1d1d",
+          "theme": {
+            "Accent": "Red"
+          }
+        },
+        {
+          "value": "#fb7185",
+          "theme": {
+            "Accent": "Rose"
+          }
+        },
+        {
+          "value": "#fb923c",
+          "theme": {
+            "Accent": "Orange"
+          }
+        },
+        {
+          "value": "#a3e635",
+          "theme": {
+            "Accent": "Green"
+          }
+        },
+        {
+          "value": "#3b82f6",
+          "theme": {
+            "Accent": "Blue"
+          }
+        },
+        {
+          "value": "#713f12",
+          "theme": {
+            "Accent": "Yellow"
+          }
+        },
+        {
+          "value": "#a78bfa",
+          "theme": {
+            "Accent": "Violet"
+          }
+        },
+        {
+          "value": "#dc2626",
+          "theme": {
+            "Mode": "Dark",
+            "Accent": "Red"
+          }
+        },
+        {
+          "value": "#881337",
+          "theme": {
+            "Mode": "Dark",
+            "Accent": "Rose"
+          }
+        },
+        {
+          "value": "#7c2d12",
+          "theme": {
+            "Mode": "Dark",
+            "Accent": "Orange"
+          }
+        },
+        {
+          "value": "#365314",
+          "theme": {
+            "Mode": "Dark",
+            "Accent": "Green"
+          }
+        },
+        {
+          "value": "#2563eb",
+          "theme": {
+            "Mode": "Dark",
+            "Accent": "Blue"
+          }
+        },
+        {
+          "value": "#ca8a06",
+          "theme": {
+            "Mode": "Dark",
+            "Accent": "Yellow"
+          }
+        },
+        {
+          "value": "#4c1d95",
+          "theme": {
+            "Mode": "Dark",
+            "Accent": "Violet"
+          }
+        }
+      ]
+    },
+    "--white": {
+      "type": "color",
+      "value": "#ffffffff"
+    },
+    "--black": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "accent": {
+      "type": "color",
+      "value": "#B98B7AFF"
+    },
+    "bg": {
+      "type": "color",
+      "value": "#FCFBF7FF"
+    },
+    "border": {
+      "type": "color",
+      "value": "#E7DDD4FF"
+    },
+    "inverse-bg": {
+      "type": "color",
+      "value": "#2A1F1DFF"
+    },
+    "inverse-text": {
+      "type": "color",
+      "value": "#F4ECE4FF"
+    },
+    "primary": {
+      "type": "color",
+      "value": "#9B2820FF"
+    },
+    "primary-dark": {
+      "type": "color",
+      "value": "#7F201AFF"
+    },
+    "primary-soft": {
+      "type": "color",
+      "value": "#D9A39CFF"
+    },
+    "surface": {
+      "type": "color",
+      "value": "#FFFDFCFF"
+    },
+    "surface-warm": {
+      "type": "color",
+      "value": "#F4ECE4FF"
+    },
+    "text-primary": {
+      "type": "color",
+      "value": "#1A1918FF"
+    },
+    "text-secondary": {
+      "type": "color",
+      "value": "#5F5853FF"
+    },
+    "transparent": {
+      "type": "color",
+      "value": "#00000000"
+    },
+    "white": {
+      "type": "color",
+      "value": "#FFFFFFFF"
+    }
+  }
+}
