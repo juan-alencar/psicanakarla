@@ -1,6 +1,5 @@
 "use client";
 
-import QuemSouEu from "@/assets/landing-page/quem-sou-eu.jpg";
 import Logo from "@/assets/logo.svg";
 import { Navbar } from "@/components/navbar";
 import {
@@ -314,16 +313,22 @@ export default function Home() {
             </Button>
           </div>
 
-          <div className="w-full">
+          <div className="w-full flex flex-col items-center gap-2">
             <Image
-              src={QuemSouEu}
+              width={1200}
+              height={1200}
+              src={"/entrevista.png"}
               alt="Ana Karla - Comissão Organizadora do Seminário Clínico de Psicanálise da UNIESP - 2025"
-              className="w-full max-w-xl rounded-3xl mb-2 aspect-square ml-auto"
+              className="w-full max-w-xl rounded-3xl mb-2 aspect-square ml-auto object-cover"
             />
-            <p className="text-muted text-xs text-center">
-              Comissão Organizadora do Seminário Clínico de Psicanálise da
-              UNIESP – 2025
-            </p>
+            <Link
+              href={"https://youtu.be/pIudeuGxFQM?t=1091"}
+              target="_blank"
+              className="text-muted text-xs text-center w-full hover:underline hover:text-primary"
+            >
+              Entrevista ao vivo sobre procastinação no programa Fica com a
+              Gente - Paraíba – 2026
+            </Link>
           </div>
         </motion.section>
 
